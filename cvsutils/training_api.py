@@ -26,7 +26,7 @@ class TrainingApi:
     ITERATION_EVAL_API = ITERATION_API + '/performance'
     ITERATION_PUBLISH_API = ITERATION_API + '/publish'
     EXPORT_API = ITERATION_API + '/export'
-    DOMAIN_API = '/customvision/v3.2/training/domains/{domain_id}'
+    DOMAIN_API = 'https://customvision/v3.2/training/domains/{domain_id}'
 
     def __init__(self, env):
         self.env = env
