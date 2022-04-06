@@ -5,9 +5,9 @@ import tenacity
 
 
 class TrainingApi:
-    CREATE_PROJECT_API = '/customvision/v3.3/training/projects'
-    PROJECT_API = '/customvision/v3.3/training/projects/{project_id}'
-    DOMAINS_API = '/customvision/v3.3/training/domains'
+    CREATE_PROJECT_API = 'https://customvision/v3.3/training/projects'
+    PROJECT_API = 'https://customvision/v3.3/training/projects/{project_id}'
+    DOMAINS_API = 'https://customvision/v3.3/training/domains'
 
     CREATE_IMAGE_API = PROJECT_API + '/images'
     IMAGES_COUNT_API = PROJECT_API + '/images/count'
